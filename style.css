@@ -2,8 +2,12 @@
     color: #red; 
     font-size: 300px; 
 }
-.bglower:hover {
+.button1:hover {
     color: rgba(255, 255, 255, 1);
+    padding: 7px 7px;
+}
+.shrink:hover {
+    transform: scale(0.9);
 }
 .NOglower:hover {
     color: rgb(255, 0, 0);
@@ -48,9 +52,70 @@ body{
     background-color: #deddd9;
     display: flex;
     align-items: center;
+    height: 100vh;
+    box-shadow: 10px -5px 300px 130px #656564;
+}
+.section6{
+    background-color: #deddd9;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    box-shadow: 10px -5px 300px 130px #656564;
+}
+.gravi{
+    margin-left: 30%;
+    align-items: center;
+}
+.contactt{
+    font-family: Garamond, serif;
+    font-size: 50px; 
+    text-align: center;
+    color: black;
+}
+.section4{
+    background-color: #deddd9;
+    display: flex;
+    align-items: center;
     height: 50vh;
     box-shadow: 10px -5px 200px 10px #dbd9d4;
     border-radius: 1%;
+}
+.box {
+    color: #3d3d3d; 
+    width: 40%;
+    align-items: center;
+    height: 600px;
+    background-color: #bebebe;
+    box-shadow: 10px -5px 200px 10px #dbd9d4;
+    margin-right: 20px;
+    display: inline-block;
+    vertical-align: top;
+}
+.boximage{
+    border-radius: 5%;
+    height: 200px;
+    width: 100%;
+    box-shadow: 5px 5px 80px 2px #6b6b6b;
+}
+.boximage2{
+    border-radius: 5%;
+    height: 250px;
+    width: 100%;
+    box-shadow: 5px 5px 80px 2px #6b6b6b;
+}
+.boximage3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5%;
+    height: 250px;
+    width: 50%;
+    box-shadow: 5px 5px 80px 2px #6b6b6b;
+}
+.boxtext{
+    font-size: 25px; 
+    text-align: center;
+    color: #313131; 
 }
 .text4{
     font-size: 25px; 
@@ -101,6 +166,11 @@ body{
     text-align: center;
     color: #b1b1b1; 
 }
+.p2text{
+    font-size: 30px; 
+    text-align: center;
+    color: #3d3d3d; 
+}
 .p1image{
     border-radius: 5%;
     height: 300px;
@@ -120,6 +190,7 @@ body{
     box-shadow: 5px 5px 80px 2px #6b6b6b;
 }
 .button1{
+    transition: all 0.3s ease;
     font-size: 15px;
     text-align: center;
     color: #ff7d00; 
@@ -138,6 +209,7 @@ body{
     box-shadow: 5px 5px 20px 5px #666666;
 }
 .board:hover {
+    transition: all 0.3s ease;
     box-shadow: 5px 5px 80px 5px #666666;
 }
 .brlarge { 
@@ -161,4 +233,15 @@ body{
     font-size: 22px; 
     text-align: center;
     color: #b1b1b1; 
+}
+.btnz{
+    margin: 10%;
+    display: block;
+    cursor: pointer;
+    font-size: 20px;
+    background-color: #78290f;
+    color: #ff7d00; 
+    padding: 15px 30px;
+    border-radius: 5px;
+    text-decoration: none;
 }
